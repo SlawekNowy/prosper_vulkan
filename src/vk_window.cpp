@@ -198,6 +198,7 @@ void prosper::VlkWindow::InitWindow()
 #ifdef _WIN32
 	const Anvil::WindowPlatform platform = Anvil::WINDOW_PLATFORM_SYSTEM;
 #else
+	//TODO: Wayland support.
 	const Anvil::WindowPlatform platform = Anvil::WINDOW_PLATFORM_XCB;
 #endif
 	/* Create a window */
